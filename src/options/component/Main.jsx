@@ -87,6 +87,28 @@ export default class Main extends React.Component {
         </div>
 
         <div>
+          <a
+            href={`https://mouse-dictionary.netlify.com/${this.state.lang}/`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "underline" }}
+          >
+            <span>This extension fork from the Mouse Dictionary</span>
+          </a>
+        </div>
+
+        <div>
+          <a
+            href={`https://github.com/MichinariNukazawa/lina_dicto/blob/master/lina_dicto/dictionary/esperanto/DictionaryChanges.md`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "underline" }}
+          >
+            <span>License of initial dictionary data of esperanto</span>
+          </a>
+        </div>
+
+        <div>
           <div onClick={this.doSwitchLanguage} style={{ position: "absolute", top: 0, left: -30, cursor: "pointer" }}>
             {this.state.lang}
           </div>
