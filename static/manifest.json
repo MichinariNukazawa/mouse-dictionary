@@ -1,5 +1,5 @@
 {
-  "name": "Mouse Dictionary",
+  "name": "lina_dicto-wemd",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
   "author": "wtetsu",
@@ -15,7 +15,7 @@
   },
   "browser_action": {
     "default_icon": "icon48.png",
-    "default_title": "Mouse Dictionary"
+    "default_title": "lina_dicto"
   },
   "commands": {
     "_execute_browser_action": {

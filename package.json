@@ -1,8 +1,8 @@
 {
-  "name": "mouse-dictionary",
+  "name": "lina_dicto-wemd",
   "version": "1.3.7",
-  "repository": "https://github.com/wtetsu/mouse-dictionary.git",
-  "author": "wtetsu",
+  "repository": "https://github.com/MichinariNukazawa/mouse-dictionary/tree/esperanto-variant-lina-dicto",
+  "author": "MNukazawa",
   "license": "MIT",
   "scripts": {
     "build": "npm run build-chrome && npm run build-firefox",
