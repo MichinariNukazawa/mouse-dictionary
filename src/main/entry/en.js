@@ -11,8 +11,32 @@ import text from "../../lib/text";
 const RE_UNNECESSARY_CHARACTERS = new RegExp(String.fromCharCode(0x200c), "g");
 const RE_SLASH = new RegExp("/", "g");
 
+const convert_caret_from_alfabeto_sistemo = (str) =>
+{
+  const replaces = [
+    [/\u0108/g, "C^"],
+    [/\u0109/g, "c^"],
+    [/\u011C/g, "G^"],
+    [/\u011D/g, "g^"],
+    [/\u0124/g, "H^"],
+    [/\u0125/g, "h^"],
+    [/\u0134/g, "J^"],
+    [/\u0135/g, "j^"],
+    [/\u015C/g, "S^"],
+    [/\u015D/g, "s^"],
+    [/\u016C/g, "U^"],	// 公式の変換には無いがとりあえず
+    [/\u016D/g, "u^"],	// 公式の変換には無いがとりあえず
+  ];
+
+  for(const replace of replaces){
+    str = str.replace(replace[0], replace[1]);
+  }
+
+  return str;
+}
+
 const createLookupWordsEn = (rawSourceStr, withCapitalized = false, mustIncludeOriginalText = false) => {
-  const replacedSourceStr = rawSourceStr.replace(RE_UNNECESSARY_CHARACTERS, "").replace(RE_SLASH, " / ");
+  const replacedSourceStr = convert_caret_from_alfabeto_sistemo(rawSourceStr.replace(RE_UNNECESSARY_CHARACTERS, "").replace(RE_SLASH, " / "));
   const sourceStr = text.dealWithHyphens(replacedSourceStr, rule.doLetters);
 
   const lookupWords = new UniqList();

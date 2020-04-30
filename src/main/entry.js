@@ -8,6 +8,7 @@ import entryGeneratorJa from "./entry/ja";
 import entryGeneratorEn from "./entry/en";
 
 const build = (text, withCapitalized, mustIncludeOriginalText) => {
+  // 書き換え範囲が大きくなりすぎるので、基本的に"en", "English"のままとする。
   const lang = isEnglishText(text) ? "en" : "ja";
   let entries;
   switch (lang) {
@@ -25,7 +26,10 @@ const isEnglishText = str => {
   let result = true;
   for (let i = 0; i < str.length; i++) {
     const code = str.charCodeAt(i);
-    const isEnglishLike = (0x20 <= code && code <= 0x7e) || code === 0x2011 || code === 0x200c;
+    const isEnglishLike = (0x20 <= code && code <= 0x7e)
+      || (0x0108 <= code && code <= 0x016d)
+      || code === 0x028c
+      || code === 0x2011 || code === 0x200c;
     if (!isEnglishLike) {
       result = false;
       break;

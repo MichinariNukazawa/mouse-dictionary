@@ -178,6 +178,6 @@ const createGetCaretNodeAndOffsetFromPointFunction = ownerDocument => {
   return newFunction;
 };
 
-const isEnglishLikeCharacter = code => 0x20 <= code && code <= 0x7e;
+const isEnglishLikeCharacter = code => (0x20 <= code && code <= 0x7e) || (0x0108 <= code && code <= 0x016d);
 
 export default { build };
