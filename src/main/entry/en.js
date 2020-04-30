@@ -207,13 +207,25 @@ const createLinkedWords = (words, isAllLower) => {
 };
 
 const TRAILING_RULES = [
-  [
-    { search: "'s", new: "" },
-    { search: "s", new: "" }
-  ],
-  [{ search: "er", new: "" }],
-  [{ search: "iest", new: "y" }],
-  [{ search: "est", new: "" }]
+  [{ search: "n", new: "" }],
+  [{ search: "j", new: "" }],
+  [{ search: "jn", new: "" }],
+  [{ search: "i", new: "o" }],
+  [{ search: "o", new: "o" }],
+  [{ search: "a", new: "o" }],
+  [{ search: "e", new: "o" }],
+  [{ search: "u", new: "o" }],
+  [{ search: "as", new: "o" }],
+  [{ search: "is", new: "o" }],
+  [{ search: "os", new: "o" }],
+  [{ search: "i",  new: "i" }],
+  [{ search: "o",  new: "i" }],
+  [{ search: "a",  new: "i" }],
+  [{ search: "e",  new: "i" }],
+  [{ search: "u",  new: "i" }],
+  [{ search: "as", new: "i" }],
+  [{ search: "is", new: "i" }],
+  [{ search: "os", new: "i" }],
 ];
 
 /**
