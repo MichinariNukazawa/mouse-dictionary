@@ -14,3 +14,8 @@ dictionary:
 	cd $(DICT_SRC) && node conv_pejvo_dictionary_mouse-dictionary.js
 	cp $(DICT_SRC)/md/* static/data/
 
+package:
+	npm run release
+	./package.sh firefox
+	./package.sh chrome
+
