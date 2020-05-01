@@ -66,7 +66,7 @@ export default {
   replaceRule2: " ",
   advancedSettings: "Advanced settings",
   htmlTemplate: "HTML templates",
-  htmlTemplateWindow: "Mouse Dictionary window frame",
+  htmlTemplateWindow: "lina_dicto_wemd window frame",
   htmlTemplateDesc: "Description frame",
   htmlTemplateDescText: "Description",
   styles: "Style of each state",
@@ -86,5 +86,5 @@ export default {
   JsonImportError: "Invalid JSON",
   clipboardJson: "Copy to clipboard",
   aboutJsonEditor:
-    "This is JSON data which expresses the whole Mouse Dictionary's settings. Please use it for backup, sharing and so forth."
+    "This is JSON data which expresses the whole lina_dicto_wemd's settings. Please use it for backup, sharing and so forth."
 };

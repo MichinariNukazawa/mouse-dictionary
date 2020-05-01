@@ -57,13 +57,13 @@ const isFramePage = () => {
 };
 
 const toggleDialog = (area, userSettings) => {
-  const isHidden = area.getAttribute("data-mouse-dictionary-hidden");
+  const isHidden = area.getAttribute("data-lina-dicto-wemd-hidden");
   if (isHidden === "true") {
     dom.applyStyles(area, userSettings.normalDialogStyles);
-    area.setAttribute("data-mouse-dictionary-hidden", "false");
+    area.setAttribute("data-lina-dicto-wemd-hidden", "false");
   } else {
     dom.applyStyles(area, userSettings.hiddenDialogStyles);
-    area.setAttribute("data-mouse-dictionary-hidden", "true");
+    area.setAttribute("data-lina-dicto-wemd-hidden", "true");
   }
 };
 

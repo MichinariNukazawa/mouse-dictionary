@@ -9,10 +9,10 @@
 
 const resources = {
   ja: {
-    doesntSupportFrame: "Mouse Dictionaryは、フレームのあるページで使用することはできません。"
+    doesntSupportFrame: "lina_dicto_wemdは、フレームのあるページで使用することはできません。"
   },
   en: {
-    doesntSupportFrame: "Mouse Dictionary doesn't support frame pages."
+    doesntSupportFrame: "lina_dicto_wemd doesn't support frame pages."
   }
 };
 

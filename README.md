@@ -88,7 +88,7 @@ Parameters:
 
 ## License
 
-Mouse Dictionary is published under the MIT license.
+lina_dicto_wemd is published under the MIT license.
 
 ## Third-party data
 

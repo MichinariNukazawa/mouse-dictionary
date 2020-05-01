@@ -63,7 +63,7 @@ export default {
   replaceRule2: "に置換",
   advancedSettings: "上級者設定",
   htmlTemplate: "HTMLテンプレート",
-  htmlTemplateWindow: "Mouse Dictionaryウィンドウ全体",
+  htmlTemplateWindow: "lina_dicto_wemdウィンドウ全体",
   htmlTemplateDesc: "説明全体を囲う領域",
   htmlTemplateDescText: "説明テキスト",
   styles: "状態ごとのスタイル",
@@ -82,5 +82,5 @@ export default {
   importJson: "JSONを設定に反映",
   JsonImportError: "正しいJSONデータになっていません",
   clipboardJson: "クリップボードにコピー",
-  aboutJsonEditor: "Mouse Dictionary設定全体のJSONデータです。バックアップや共有にご利用ください ※辞書データは含みません"
+  aboutJsonEditor: "lina_dicto_wemd設定全体のJSONデータです。バックアップや共有にご利用ください ※辞書データは含みません"
 };

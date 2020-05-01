@@ -12,7 +12,7 @@ export default {
   initialPosition: "right",
   scroll: "scroll",
 
-  backgroundColor: "#ffffff",
+  backgroundColor: "#efffef",
   headFontColor: "#000088",
   descFontColor: "#101010",
   headFontSize: "small",
