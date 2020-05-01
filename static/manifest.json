@@ -2,7 +2,7 @@
   "name": "lina_dicto-wemd",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "author": "wtetsu",
+  "author": "MNukazawa",
   "version": "1.3.7",
   "options_ui": {
     "page": "options/options.html",
