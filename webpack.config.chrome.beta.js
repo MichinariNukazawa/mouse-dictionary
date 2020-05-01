@@ -10,7 +10,7 @@ specificConfig.output = {
 specificConfig.plugins.push(
   new DefinePlugin({
     BROWSER: JSON.stringify("CHROME"),
-    DIALOG_ID: JSON.stringify("____MOUSE_DICTIONARY_36a6870156bfea8a9682a2ac4389776b7b3e614f")
+    DIALOG_ID: JSON.stringify("____LINA_DICTO_WEMD_c6739031-55ae-490b-bc85-2ddb54ddf2fa")
   })
 );
 
