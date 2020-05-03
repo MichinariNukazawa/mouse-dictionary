@@ -1,10 +1,10 @@
 # lina_dicto_wemd dictionary for espearanto
 
+Ride [Mouse Dictionary](https://mouse-dictionary.netlify.com/en/) WebExtensions is a super fast dictionary for Chrome and Firefox.
+
 <img src="https://raw.githubusercontent.com/MichinariNukazawa/mouse-dictionary/esperanto-variant-lina-dicto/static/options/logo.png" title="lina_dicto_wemd" width="400" height="229">
 
 lina_dicto_wemd is dictionary for esperanto to japanese.
-
-Ride [Mouse Dictionary](https://mouse-dictionary.netlify.com/en/) WebExtensions is a super fast dictionary for Chrome and Firefox.
 
 Download it.
 
