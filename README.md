@@ -1,6 +1,6 @@
 # lina_dicto_wemd dictionary for espearanto
 
-<img src="https://raw.githubusercontent.com/MichinariNukazawa/mouse-dictionary/esperanto-variant-lina-dicto/static/options/logo.png" title="Mouse Dictionary" width="400" height="229">
+<img src="https://raw.githubusercontent.com/MichinariNukazawa/mouse-dictionary/esperanto-variant-lina-dicto/static/options/logo.png" title="lina_dicto_wemd" width="400" height="229">
 
 lina_dicto_wemd is dictionary for esperanto to japanese.
 
@@ -15,11 +15,20 @@ Use it:
 
 - [Getting started](https://github.com/wtetsu/mouse-dictionary/wiki/Getting-started)
 
+
+## lina_dicto
+[lina\_dicto (win/mac/linux desktop)](https://github.com/MichinariNukazawa/lina_dicto)  
+[lina\_dicto for android](https://github.com/MichinariNukazawa/lina_dicto_for_android)  
+[lina\_dicto for ios](https://github.com/MichinariNukazawa/lina_dicto_for_ios)  
+[lina\_dicto for webextension](https://github.com/MichinariNukazawa/lina_dicto_for_webextension)  
+[lina\_dicto english](https://github.com/MichinariNukazawa/lina_dicto_english)  
+
+
 ## Screenshots
 
-### English-Japanese
+### Esperanto-Japanese
 
-![20200503.png]( https://raw.githubusercontent.com/MichinariNukazawa/mouse-dictionary/esperanto-variant-lina-dicto/lina_dicto/document/image/20200503.png )
+<img src="https://raw.githubusercontent.com/MichinariNukazawa/mouse-dictionary/esperanto-variant-lina-dicto/lina_dicto/document/image/20200502.png" title="screenshot" width="400" height="229">
 
 ## How to develop
 
